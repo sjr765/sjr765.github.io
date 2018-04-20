@@ -1,11 +1,73 @@
 
 .navbar{
-font-family: 'Black Han Sans', sans-serif;
+font-family: 'Indie Flower', cursive;
 font-size: 25px;
     
 background-color: #fe9f97;
 }
 
+.headertext{
+    text-align: center;
+font-family: 'Permanent Marker', cursive;
+
+
+}
+
 .pull-right{
    fill:blue;
+}
+
+/*WORK GALLERY STARTS HERE*/
+.picone{
+    float: left;
+    margin: 5px;
+ 
+}
+
+.pictwo{
+    float: left;
+    margin: 5px;
+
+}
+
+.picthree{
+     float: left;
+    margin: 5px;
+}
+
+.picfour{
+    float: left;
+    margin: 5px;
+    padding-left: 120px;
+
+
+}
+
+.picfive{
+    float: left;
+    margin: 5px;
+
+}
+
+.picsix{
+    float: left;
+    margin: 5px;
+
+}
+
+.picseven{
+    float: left;
+    margin: 5px;
+    padding-left: 120px;
+
+}
+
+.piceight{
+    float: left;
+    margin: 5px;
+}
+
+.picnine{
+    float: left;
+    margin: 5px;
 }
