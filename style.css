@@ -1,73 +1,112 @@
+body{
+    background-color: #dddddd;
+}
+
 
 .navbar{
-font-family: 'Indie Flower', cursive;
-font-size: 25px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
     
-background-color: #fe9f97;
+    background-color: #fe9f97;
+}
+
+.navbar-brand{
+    color: aqua;
+    font-size: 30px;
+    
 }
 
 .headertext{
     text-align: center;
-font-family: 'Permanent Marker', cursive;
+    font-family: 'Permanent Marker', cursive;
 
 
 }
 
-.pull-right{
-   fill:blue;
-}
 
 /*WORK GALLERY STARTS HERE*/
+
 .picone{
-    float: left;
     margin: 5px;
+    position: relative;
+    border-style: solid;
+    border-color: #fbae17;
+    max-width: 100%;
+    display: inline;
+    margin-left: 15%;
+    margin-right: -2%;
+    float: left;
+    
  
 }
 
 .pictwo{
-    float: left;
-    margin: 5px;
-
+    margin-right: 5px;
+    position:relative;
+    border-style: solid;
+    border-color: #fbae17;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    display: inline;
+    margin-left: 5%;
+    margin-right: 5%;
+    float:left;
 }
 
 .picthree{
-     float: left;
-    margin: 5px;
+     margin: 5px;
+    position: relative;
+    border-style: solid;
+    border-color: #fbae17;
+    max-width: 100%;
+    display: inline;
+    margin-left: 15%;
+    margin-right: -2%;
+    clear: left;
+    float: left;
 }
 
 .picfour{
-    float: left;
-    margin: 5px;
-    padding-left: 120px;
+    margin-right: 5px;
+    position:relative;
+    border-style: solid;
+    border-color: #fbae17;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    display: inline;
+    margin-left: 5%;
+    margin-right: 5%;
+    float:left;
 
 
 }
 
 .picfive{
+     margin: 5px;
+    position: relative;
+    border-style: solid;
+    border-color: #fbae17;
+    max-width: 100%;
+    display: inline;
+    margin-left: 15%;
+    margin-right: -2%;
+    clear: left;
     float: left;
-    margin: 5px;
 
 }
 
 .picsix{
-    float: left;
-    margin: 5px;
-
-}
-
-.picseven{
-    float: left;
-    margin: 5px;
-    padding-left: 120px;
-
-}
-
-.piceight{
-    float: left;
-    margin: 5px;
-}
-
-.picnine{
-    float: left;
-    margin: 5px;
+    margin-right: 5px;
+    position:relative;
+    border-style: solid;
+    border-color: #fbae17;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    display: inline;
+    margin-left: 5%;
+    margin-right: 5%;
+    float:left;
 }
