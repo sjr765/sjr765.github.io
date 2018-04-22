@@ -26,6 +26,51 @@ body{
 
 /*WORK GALLERY STARTS HERE*/
 
+/*container for hover text*/
+/*
+.container {
+    width: 560px;
+    height: 25px;
+    position: absolute;
+    border-style: none;
+    border-color: #000;
+    max-width: 100%;
+    margin-left: 15%;
+    margin-right: -2%;
+    float: left;
+    margin-top: 300px;
+}
+*/
+
+
+/*text for hover animation*/
+
+
+.hover-container {
+    width: 560px;
+    height: 75px;
+    position: absolute;
+    max-width: 100%;
+    margin-left: 15%;
+    margin-right: -2%;
+    margin-top: 150px;
+    background-color: black;
+    opacity: .8;
+}
+
+.hover-text {
+    font-family: 'Permanent Marker', cursive;
+    color: #0095a3;
+    opacity: .8;
+    text-align: center;
+    top: 25%;
+    font-family: Arial, Verdana;
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+}
+
+
 .picone{
     margin: 5px;
     position: relative;
@@ -37,8 +82,8 @@ body{
     margin-right: -2%;
     float: left;
     
- 
 }
+
 
 .pictwo{
     margin-right: 5px;
@@ -52,6 +97,7 @@ body{
     margin-left: 5%;
     margin-right: 5%;
     float:left;
+
 }
 
 .picthree{
