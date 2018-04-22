@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $('.hover-text').hide();
-    $('.hover-container').hide();
+    $('.hover-container-left').hide();
     $('.picone').animate({
         opacity:1
         
@@ -9,12 +9,12 @@ $(document).ready(function() {
     $('.picone').hover(function() {
         $(this).stop().animate({opacity:.4},200);
         $('.hover-text').fadeIn();
-        $('.hover-container').fadeIn();
+        $('.hover-container-left').fadeIn();
 
     }, function() {
         $('.picone').stop().animate({opacity:1},500)
         $('.hover-text').fadeOut();
-        $('.hover-container').fadeOut();
+        $('.hover-container-left').fadeOut();
 
     });
 

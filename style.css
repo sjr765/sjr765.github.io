@@ -46,7 +46,7 @@ body{
 /*text for hover animation*/
 
 
-.hover-container {
+.hover-container-left {
     width: 560px;
     height: 75px;
     position: absolute;
@@ -60,11 +60,10 @@ body{
 
 .hover-text {
     font-family: 'Permanent Marker', cursive;
-    color: #0095a3;
+    color: #fbae17;
     opacity: .8;
     text-align: center;
     top: 25%;
-    font-family: Arial, Verdana;
     font-size: 25px;
     font-weight: bold;
     position: relative;
