@@ -386,20 +386,21 @@ body{
         .headertext{
            text-align: center;
         }
-    .picone {width: 10px; display: block; margin-left: 25px;}
+    .picone {width: 10px; display: block; margin-left: 15px;}
         .hover-container-one{
-            width: 374px;    
+            width: 374px; 
+            margin-left: 15px;
         }
         
         .hover-text-one{
             margin-top: -20px;
         }
         
-    .pictwo {width: auto; display: block; margin-left: 25px;}
+    .pictwo {width: auto; display: block; margin-left: 15px;}
         .hover-container-two{
             width: 374px;
             margin-top: 480px;
-            margin-left: 57px;
+            margin-left: 15px;
 
         }
         .hover-text-two{
@@ -407,37 +408,39 @@ body{
 
         }
     
-    .picthree {width: 25%; display: block; margin-left: 25px;}
+    .picthree {width: 25%; display: block; margin-left: 15px;}
         .hover-container-three{
             width: 370px;
             margin-top: 800px;
+            margin-left: 15px
             
         }
         .hover-text-three{
             margin-top:0;
         }
-    .picfour {width:auto; display: block; margin-left: 25px;}
+    .picfour {width:auto; display: block; margin-left: 15px;}
         .hover-container-four{
             width: 374px;
             margin-top: 1130px;
-            margin-left: 20px;
+            margin-left: 15px;
         }
-    .picfive {width: auto; display: block; margin-left: 25px;}
+    .picfive {width: auto; display: block; margin-left: 15px;}
          .hover-container-five{
             width: 374px;
             margin-top: 1470px;
-            margin-left: 60px;
+            margin-left: 15px;
         }
         .hover-text-five{
             margin-top: -15px;
         }
-    .picsix {width: auto; display: block; margin-left: 25px;}
+    .picsix {width: auto; display: block; margin-left: 15px;}
          .hover-container-six{
             width: 374px;
             margin-top: 1800px;
-            margin-left: 20px;
+            margin-left: 15px;
+
         }
         .hover-text-six{
-            margin-top: -15px;
+            margin-top: px;
         }
 }
