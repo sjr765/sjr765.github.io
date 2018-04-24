@@ -45,8 +45,8 @@ body{
 
 /*text for hover animation*/
 
-
-.hover-container-left {
+/*first picture*/
+.hover-container-one {
     width: 560px;
     height: 75px;
     position: absolute;
@@ -58,7 +58,7 @@ body{
     opacity: .8;
 }
 
-.hover-text {
+.hover-text-one {
     font-family: 'Permanent Marker', cursive;
     color: #fbae17;
     opacity: .8;
@@ -83,6 +83,32 @@ body{
     
 }
 
+/*second picture*/
+
+.hover-container-two {
+    width: 560px;
+    height: 75px;
+    position: absolute;
+    max-width: 100%;
+    margin-left: 51.25%;
+    margin-right: 5px;
+    margin-top: 150px;
+    background-color: black;
+    opacity: .8;
+
+}
+
+.hover-text-two {
+    font-family: 'Permanent Marker', cursive;
+    color: #fbae17;
+    opacity: .8;
+    text-align: center;
+    top: 25%;
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+}
+
 
 .pictwo{
     margin-right: 5px;
@@ -99,6 +125,32 @@ body{
 
 }
 
+/*Third Picure*/
+
+
+.hover-container-three {
+    width: 560px;
+    height: 75px;
+    position: absolute;
+    max-width: 100%;
+    margin-left: 15%;
+    margin-right: -2%;
+    margin-top: 475px;
+    background-color: black;
+    opacity: .8;
+}
+
+.hover-text-three {
+    font-family: 'Permanent Marker', cursive;
+    color: #fbae17;
+    opacity: .8;
+    text-align: center;
+    top: 25%;
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+}
+
 .picthree{
      margin: 5px;
     position: relative;
@@ -110,6 +162,32 @@ body{
     margin-right: -2%;
     clear: left;
     float: left;
+}
+
+/*Fourth Picture*/
+
+.hover-container-four {
+    width: 560px;
+    height: 75px;
+    position: absolute;
+    max-width: 100%;
+    margin-left: 51.25%;
+    margin-right: 5px;
+    margin-top: 475px;
+    background-color: black;
+    opacity: .8;
+
+}
+
+.hover-text-four {
+    font-family: 'Permanent Marker', cursive;
+    color: #fbae17;
+    opacity: .8;
+    text-align: center;
+    top: 25%;
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
 }
 
 .picfour{
@@ -125,7 +203,31 @@ body{
     margin-right: 5%;
     float:left;
 
+}
 
+/*Fifth Picture*/
+
+.hover-container-five {
+    width: 560px;
+    height: 75px;
+    position: absolute;
+    max-width: 100%;
+    margin-left: 15%;
+    margin-right: -2%;
+    margin-top: 810px;
+    background-color: black;
+    opacity: .8;
+}
+
+.hover-text-five {
+    font-family: 'Permanent Marker', cursive;
+    color: #fbae17;
+    opacity: .8;
+    text-align: center;
+    top: 25%;
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
 }
 
 .picfive{
@@ -142,6 +244,32 @@ body{
 
 }
 
+/*Sixth Picture*/
+
+.hover-container-six {
+    width: 560px;
+    height: 75px;
+    position: absolute;
+    max-width: 100%;
+    margin-left: 51.25%;
+    margin-right: 5px;
+    margin-top: 815px;
+    background-color: black;
+    opacity: .8;
+
+}
+
+.hover-text-six {
+    font-family: 'Permanent Marker', cursive;
+    color: #fbae17;
+    opacity: .8;
+    text-align: center;
+    top: 25%;
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+}
+
 .picsix{
     margin-right: 5px;
     position:relative;
@@ -155,3 +283,56 @@ body{
     margin-right: 5%;
     float:left;
 }
+
+/*BIO STYLING*/
+
+.hover-container {
+    width: 560px;
+    height: 75px;
+    position: absolute;
+    max-width: 100%;
+    margin-left: 15%;
+    margin-right: -2%;
+    margin-top: 150px;
+    background-color: black;
+    opacity: .8;
+}
+
+
+.bio-picture{
+    position: relative;
+    border-style: solid;
+    border-color: #fbae17;
+    max-width: 100%;
+    display: inline-block;
+    margin-left: 10%;
+    margin-right: 12px;
+    height: 400px;
+    width: 600px;
+    float: left;
+    
+}
+
+.bio-header {
+    font-family: 'Caveat', cursive;
+    color: #fbae17;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    clear: right;
+    display: inline-block;
+}
+
+.bio-text{
+    
+    font-family: 'Caveat', cursive;
+    color: #fbae17;
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    display: inline;
+    float: left;
+    
+}
+
+
