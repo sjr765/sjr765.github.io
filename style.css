@@ -10,11 +10,14 @@ body{
     background-color: #fe9f97;
 }
 
-.navbar-brand{
+/*trying to get font colors to change in the nav bar*/
+/*
+.navbar-light{
     color: aqua;
     font-size: 30px;
     
 }
+*/
 
 .headertext{
     text-align: center;
@@ -368,5 +371,73 @@ body{
     font-weight: bold;
     position: relative;
     text-align: center;
+    text-decoration: none;
 }
 
+   
+
+
+/* For iPhone X: */
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+        .headertext{
+           text-align: center;
+        }
+    .picone {width: 10px; display: block; margin-left: 25px;}
+        .hover-container-one{
+            width: 374px;    
+        }
+        
+        .hover-text-one{
+            margin-top: -20px;
+        }
+        
+    .pictwo {width: auto; display: block; margin-left: 25px;}
+        .hover-container-two{
+            width: 374px;
+            margin-top: 480px;
+            margin-left: 57px;
+
+        }
+        .hover-text-two{
+            margin-top: -15px;
+
+        }
+    
+    .picthree {width: 25%; display: block; margin-left: 25px;}
+        .hover-container-three{
+            width: 370px;
+            margin-top: 800px;
+            
+        }
+        .hover-text-three{
+            margin-top:0;
+        }
+    .picfour {width:auto; display: block; margin-left: 25px;}
+        .hover-container-four{
+            width: 374px;
+            margin-top: 1130px;
+            margin-left: 20px;
+        }
+    .picfive {width: auto; display: block; margin-left: 25px;}
+         .hover-container-five{
+            width: 374px;
+            margin-top: 1470px;
+            margin-left: 60px;
+        }
+        .hover-text-five{
+            margin-top: -15px;
+        }
+    .picsix {width: auto; display: block; margin-left: 25px;}
+         .hover-container-six{
+            width: 374px;
+            margin-top: 1800px;
+            margin-left: 20px;
+        }
+        .hover-text-six{
+            margin-top: -15px;
+        }
+}
