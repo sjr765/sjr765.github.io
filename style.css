@@ -26,21 +26,7 @@ body{
 
 /*WORK GALLERY STARTS HERE*/
 
-/*container for hover text*/
-/*
-.container {
-    width: 560px;
-    height: 25px;
-    position: absolute;
-    border-style: none;
-    border-color: #000;
-    max-width: 100%;
-    margin-left: 15%;
-    margin-right: -2%;
-    float: left;
-    margin-top: 300px;
-}
-*/
+
 
 
 /*text for hover animation*/
@@ -286,18 +272,11 @@ body{
 
 /*BIO STYLING*/
 
-.hover-container {
-    width: 560px;
-    height: 75px;
-    position: absolute;
-    max-width: 100%;
-    margin-left: 15%;
-    margin-right: -2%;
-    margin-top: 150px;
-    background-color: black;
-    opacity: .8;
+.bio-container{
+    height: 700px;
+    width: 1500px
+    
 }
-
 
 .bio-picture{
     position: relative;
@@ -321,18 +300,73 @@ body{
     position: relative;
     clear: right;
     display: inline-block;
+    margin-top: -40px;
 }
 
 .bio-text{
     
-    font-family: 'Caveat', cursive;
+    font-family: 'Montserrat', sans-serif;
     color: #fbae17;
     font-size: 15px;
     font-weight: bold;
-    position: absolute;
-    display: inline;
-    float: left;
+    position: relative;
     
 }
 
+/*resume styling*/
+
+.resume-title{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fbae17;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+}
+.resume-text{
+    
+    font-family: 'Montserrat', sans-serif;
+    color: #fbae17;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    margin-top: -35px;
+    
+}
+
+/*contact text*/
+
+.contact-text{
+    
+    font-family: 'Montserrat', sans-serif;
+    color: #fbae17;
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    margin-top:
+    
+}
+
+.contact-links{
+    
+    font-family: 'Montserrat', sans-serif;
+    color: #fbae17;
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    
+}
+
+.contact-links:hover{
+    font-family: 'Montserrat', sans-serif;
+    color: #fbae17;
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+}
 
